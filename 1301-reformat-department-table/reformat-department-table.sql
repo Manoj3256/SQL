@@ -13,5 +13,5 @@ select id,
         sum(case when month='Nov' then revenue end) as Nov_Revenue,
         sum(case when month='Dec' then revenue end) as Dec_Revenue
 from Department
-group by id
+group by id;
     
