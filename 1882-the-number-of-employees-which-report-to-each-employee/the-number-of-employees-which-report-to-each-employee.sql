@@ -4,4 +4,4 @@ from Employees e
 join Employees e2
 on e.employee_id=e2.reports_to
 group by e.employee_id 
-order by e.employee_id
+order by employee_id
